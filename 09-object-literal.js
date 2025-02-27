@@ -76,3 +76,16 @@ let employee = {
 }
 employee.walk();
 employee.details();
+
+console.log("-------------- Get keys and values of an object ------------");
+
+let emp = {
+    name: "John",
+    age: 30,
+    city: "Pune",
+}
+const keys = Object.keys(emp);
+console.log(keys);
+const values = Object.values(emp);
+console.log(values);
+
