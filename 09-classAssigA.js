@@ -27,7 +27,7 @@ const car5 = new Vehicle("Ford", "EcoSport", 2022, "Grey", "25L");
 car5.details();
 
 
-console.Zlog("------------------------------------------------------------------");
+console.log("------------------------------------------------------------------");
 
 class College{
     name;

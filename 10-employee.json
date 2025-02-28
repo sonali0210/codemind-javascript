@@ -1,0 +1,13 @@
+{
+  "firstName": "Jenny",
+  "lastName": "Gates",
+  "age": 22,
+  "college": "Government College Pune",
+  "address": {
+    "flat": 1005,
+    "society": "Horizon",
+    "street": "SB Road",
+    "city": "Pune"
+  },
+  "friends": ["James", "Neha", "Bill"]
+}
