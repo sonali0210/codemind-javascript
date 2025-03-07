@@ -32,4 +32,3 @@ let sum = filteredArray.reduce((runningTotal,element) => {
     return (runningTotal + element);
 });
 console.log(`Sum of multiples of 5 in the given array is: ${sum} `);
-
