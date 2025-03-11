@@ -1,3 +1,7 @@
+// way to extract properties from objects and assign
+// them to variables
+// helps write readable code 
+
 const student = {
     name: 'John Doe',
     age: 20,
@@ -7,7 +11,6 @@ const student = {
     "phone number": "1234567890",
     isMarried : true
 }
-
 // let city = student.city;
 
 //marks is default value

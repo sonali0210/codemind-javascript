@@ -1,3 +1,7 @@
+// way to extract values from array and assign
+// them to variables
+// helps write readable code 
+
 let array = [1,2,5,];
 console.log(array);
 

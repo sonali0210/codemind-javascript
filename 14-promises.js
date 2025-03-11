@@ -1,3 +1,8 @@
+// an object that represents eventual completion or
+// failure of the asynchronous operation and resulting
+// value of the operation.
+
+
 let promise = new Promise(function(success, failure){
     success("Yes.. Jenny.. Let get married...");
     // failure("Ohh... Jenny Sorry. I can't marry with you.. ");

@@ -1,4 +1,4 @@
-
+// gives access to outer funcn scope from inner funcSn
 var globalVariable = 100;
 function outer(){
     let outerVr = 200;

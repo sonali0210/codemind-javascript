@@ -1,3 +1,6 @@
+// iterate over an array and reduce it to single value
+
+
 const array = [4,9,6,5,3,8,1];
 const sum = array.reduce( (runningTotal, element)=> {
     return runningTotal + element; 

@@ -1,3 +1,6 @@
+// multiple callbacks make the code harder to read 
+// and maintain
+
 setTimeout(function(){
     console.log(`=== One ===`);
     setTimeout(function(){

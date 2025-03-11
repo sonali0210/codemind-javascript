@@ -1,6 +1,7 @@
+// allows to represent number of elements as an array
+
 function add(...n1){
     console.log(n1);
-    
 }
 
 add(2,3,4,5);

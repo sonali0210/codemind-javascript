@@ -1,3 +1,5 @@
+// to execute the function once for each array element
+
 const arrayNum = [20,30,40,60,80,10,70];
 
 arrayNum.forEach((element,index,arrayNum)=>{

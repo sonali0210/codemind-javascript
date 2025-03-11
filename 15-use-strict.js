@@ -1,4 +1,7 @@
 'use strict'
+// enables strict mode. 
+// it helps catch common coding errors and  bugs early.
+
 
 // age = 20;
 // console.log(age);
