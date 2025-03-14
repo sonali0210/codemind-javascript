@@ -44,3 +44,32 @@ const footer = document.querySelector("footer");
 footer.appendChild(paraElement);
 
 console.log(`-------- Delete node ---------`);
+const liDanceElement = document.querySelector("#dance");
+const hobbiesElement = document.querySelector("#hobbies");
+hobbiesElement.removeChild(liDanceElement);
+
+console.log(`-------- Events ---------`);
+
+const hobbiesHeading = document.querySelector("#hobbiesHeading");
+hobbiesHeading.addEventListener("click", ()=> {
+    console.log("Hey Buddy....Smile!!");
+    alert("Hey Buddy!.....")
+    
+});
+
+
+console.log(`-------- Modals ---------`);
+const submitBtn = document.querySelector("#submit");
+submitBtn.addEventListener("click",()=>{
+    const numValue = prompt("Enter number:",0);
+    confirm("Are you sure you entered the correct number?")
+    const square = numValue*numValue;
+    alert(square);
+})
+
+const addition = document.querySelector("#addition");
+addition.addEventListener("click", () => {
+    const numOne = +document.querySelector("#inputOne").value;
+    const numTwo = +document.querySelector("#inputTwo").value;
+    alert(numOne + numTwo);
+});
