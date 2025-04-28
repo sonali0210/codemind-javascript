@@ -1,0 +1,72 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #ff7f50); /* Changed blue to coral (#ff7f50) */
+    color: #fff;
+}
+
+/* Container Styling */
+div {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Counter Text */
+p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#counter {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #ffeb3b;
+}
+
+/* Button Styling */
+button {
+    background: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #e64a19;
+    transform: scale(1.1);
+}
+
+button:active {
+    background: #d84315;
+}
+
+#reset {
+    background: #4caf50;
+}
+
+#reset:hover {
+    background: #43a047;
+}
+
+#reset:active {
+    background: #388e3c;
+}
